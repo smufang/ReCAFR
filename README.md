@@ -26,7 +26,7 @@ Each user and item has a text informations.
 
 Dataset consists of a training set, a validation set, and a test set. During the training process, we utilize the validation set to determine when to stop the training in order to prevent overfitting.
 ```
-- amazon(yelp/steam)
+- amazon
 |--- trn_mat.pkl    # training set (sparse matrix)
 |--- val_mat.pkl    # validation set (sparse matrix)
 |--- tst_mat.pkl    # test set (sparse matrix)
