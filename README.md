@@ -46,6 +46,7 @@ The command to evaluate the backbone models and RLMRec is as follows.
 **(Constrastive Alignment)**:
 
     ```python encoder/train_encoder.py```
+You can download the data from the [link](https://drive.google.com/drive/folders/10_lWkoDJ_xsvSOtaSE9mTygAz01Y8b2G?usp=sharing).
 
 Supported models/datasets:
 
