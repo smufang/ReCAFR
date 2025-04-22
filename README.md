@@ -17,14 +17,14 @@ pip install pyyaml tqdm
 ```
 
 
-## Review-basedRecommendation Dataset
+## Review-based Recommendation Dataset
 
-We utilized  public datasets Amazon-book
+We utilized the  public datasets Amazon-book.
 
-Each user and item has a text informations.
+Each user and item has text information.
 
 
-Dataset consists of a training set, a validation set, and a test set. During the training process, we utilize the validation set to determine when to stop the training in order to prevent overfitting.
+The dataset consists of a training set, a validation set, and a test set. During the training process, we utilize the validation set to determine when to stop the training in order to prevent overfitting.
 ```
 - amazon
 |--- trn_mat.pkl    # training set (sparse matrix)
@@ -40,10 +40,10 @@ Dataset consists of a training set, a validation set, and a test set. During the
 
 We provide the **mapping dictionary** in JSON format in the `data/mapper` folder to map the `user/item ID` in our processed data to the `original identification` in original data (e.g., asin for items in Amazon-book).
 
-## Examples to run the codes
+## Examples to run the code
 
-The command to evaluate the backbone models and RLMRec is as follows. 
-**(Constrastive Alignment)**:
+The command to evaluate the model is as follows. 
+**(Contrastive Alignment)**:
 
     ```python encoder/train_encoder.py```
 You can download the data from the [link](https://drive.google.com/drive/folders/10_lWkoDJ_xsvSOtaSE9mTygAz01Y8b2G?usp=sharing).
@@ -55,8 +55,8 @@ Supported models/datasets:
 
 
 
-## 🌟 Citation
-If you find this work is helpful to your research, please consider citing our paper:
+## Citation
+If you find this work helpful to your research, please consider citing our paper:
 ```bibtex
 @inproceedings{v2025contrastive,
   title={A contrastive framework with user, item and review alignment for recommendation},
