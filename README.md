@@ -1,5 +1,5 @@
 # A Contrastive Framework with User, Item and Review Alignment for Recommendation
- This is the PyTorch implementation by for ReCAFR model proposed in this [paper](https://dl.acm.org/doi/abs/10.1145/3701551.3703530):
+ This is the PyTorch implementation by for ReCAFR model proposed in this [paper](https://dl.acm.org/doi/abs/10.1145/3701551.3703530) (or arXiv [version with appendix](https://arxiv.org/abs/2501.11963)):
 
  >Hoang V. Dong, Yuan Fang, Hady W. Lauw. A Contrastive Framework with User, Item and Review Alignment for Recommendation. In *WSDM 2025*, pp. 117--126.
 
